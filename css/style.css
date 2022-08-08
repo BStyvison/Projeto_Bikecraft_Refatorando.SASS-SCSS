@@ -588,11 +588,13 @@ img {
   max-width: 100%;
 }
 
-.formphp label.nao-aparece, .formphp input.nao-aparece {
+.formphp label.nao-aparece,
+.formphp input.nao-aparece {
   display: none !important;
 }
 
-#form-erro span, #form-send span {
+#form-erro span,
+#form-send span {
   font-size: 18px;
   line-height: 25px;
   margin-bottom: 10px;
@@ -700,11 +702,11 @@ img {
 }
 
 .header_menu ul li a:hover {
-  color: #FFF;
+  color: #fff;
 }
 
 .header_menu ul li a.menu_ativo {
-  color: #FFF;
+  color: #fff;
 }
 
 /* Introdução */
@@ -720,7 +722,7 @@ img {
 
 .introducao h1 {
   font-size: 48px;
-  color: #FFF;
+  color: #fff;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -736,7 +738,8 @@ img {
   font-style: italic;
 }
 
-.quote-externo p:before, .quote-externo p:after {
+.quote-externo p:before,
+.quote-externo p:after {
   content: "";
   display: block;
   width: 60px;
@@ -973,7 +976,13 @@ img {
 }
 
 /*Animações*/
-.js .introducao h1, .js .introducao blockquote, .js .introducao .btn, .js .animar, .js .animar-interno, .js .introducao-interna h1, .js .introducao-interna p {
+.js .introducao h1,
+.js .introducao blockquote,
+.js .introducao .btn,
+.js .animar,
+.js .animar-interno,
+.js .introducao-interna h1,
+.js .introducao-interna p {
   opacity: 0;
 }
 
@@ -1060,7 +1069,8 @@ img {
   margin-bottom: -56px;
 }
 
-.produto_item h2:after, .produto_item h2:before {
+.produto_item h2:after,
+.produto_item h2:before {
   content: "";
   display: block;
   width: 60px;
@@ -1103,7 +1113,8 @@ img {
   padding-top: 16px;
 }
 
-.produto_info ul li:nth-child(1), .produto_info ul li:nth-child(2) {
+.produto_info ul li:nth-child(1),
+.produto_info ul li:nth-child(2) {
   margin-bottom: 2px;
 }
 
@@ -1241,7 +1252,8 @@ img {
 }
 
 /*Plugin de Slide*/
-.rslides, .rslides_portfolio {
+.rslides,
+.rslides_portfolio {
   position: relative;
   list-style: none;
   overflow: hidden;
@@ -1250,7 +1262,8 @@ img {
   margin: 0;
 }
 
-.rslides li, .rslides_portfolio li {
+.rslides li,
+.rslides_portfolio li {
   -webkit-backface-visibility: hidden;
   position: absolute;
   display: none;
@@ -1259,13 +1272,15 @@ img {
   top: 0;
 }
 
-.rslides li:first-child, .rslides_portfolio li:first-child {
+.rslides li:first-child,
+.rslides_portfolio li:first-child {
   position: relative;
   display: block;
   float: left;
 }
 
-.rslides img, .rslides_portfolio img {
+.rslides img,
+.rslides_portfolio img {
   display: block;
   height: auto;
   width: 100%;
@@ -1293,7 +1308,8 @@ img {
   text-indent: -200px;
 }
 
-.rslides_tabs li a:hover, .rslides_tabs li.rslides_here a {
+.rslides_tabs li a:hover,
+.rslides_tabs li.rslides_here a {
   background: #fec63e;
   color: #fec63e;
 }

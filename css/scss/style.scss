@@ -1,4 +1,4 @@
-@use 'variaveis_e_mixins';
+@use "variaveis";
 
 
 // Gerais
@@ -6,12 +6,12 @@
 @use 'reset';
 @use 'grid';
 
-// Páginas
+// Páginas  
 @use 'geral';
 @use 'sobre';
 @use 'produtos';
 @use 'portfolio';
-@use 'contato';
+@use 'contato'; 
 
 // Responsivo
 @use 'responsivo';
