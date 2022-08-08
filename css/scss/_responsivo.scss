@@ -69,18 +69,18 @@
   }
 
   .header_menu ul li a {
-    border: 4px solid #000;
+    border: 4px solid variaveis.$black;
     width: 136px;
     display: block;
     float: left;
   }
 
   .header_menu ul li a:hover {
-    border-color: #fff;
+    border-color: variaveis.$white;
   }
 
   .header_menu ul li a.menu_ativo {
-    border-color: #fff;
+    border-color: variaveis.$white;
   }
 
   /*Introducao*/

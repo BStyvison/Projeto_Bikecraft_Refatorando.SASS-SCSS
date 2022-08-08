@@ -54,7 +54,7 @@
 }
 
 .orcamento_dados {
-  color: #fff;
+  color: variaveis.$white;
 }
 
 .contato_dados h3 {
@@ -92,7 +92,7 @@
 }
 
 .contato_dados ul li a:hover {
-  border-color: #000;
+  border-color: variaveis.$black;
 }
 
 .contato_mapa {

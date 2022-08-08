@@ -50,13 +50,13 @@ img {
 }
 
 .btn:hover {
-  color: #fff;
-  border-color: #fff;
+  color: variaveis.$white;
+  border-color: variaveis.$white;
 }
 
 .btn.btn-preto:hover {
-  color: #000;
-  border-color: #000;
+  color: variaveis.$black;
+  border-color: variaveis.$black;
 }
 
 .subtitulo {
@@ -64,7 +64,7 @@ img {
   line-height: 30px;
   font-weight: bold;
   letter-spacing: 0.1em;
-  color: #000;
+  color: variaveis.$black;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 40px;
@@ -75,7 +75,7 @@ img {
   display: block;
   width: 60px;
   height: 3px;
-  background: #000;
+  background: variaveis.$black;
   margin: 8px auto;
 }
 
@@ -84,7 +84,7 @@ img {
   line-height: 30px;
   font-weight: bold;
   letter-spacing: 0.1em;
-  color: #000;
+  color: variaveis.$black;
   text-transform: uppercase;
   margin-bottom: 20px;
 }
@@ -94,7 +94,7 @@ img {
   display: block;
   width: 60px;
   height: 3px;
-  background: #000;
+  background: variaveis.$black;
   margin: 8px 0;
 }
 
@@ -120,7 +120,7 @@ img {
 }
 
 .header_menu ul li a {
-  color: #000;
+  color: variaveis.$black;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -131,11 +131,11 @@ img {
 }
 
 .header_menu ul li a:hover {
-  color: #fff;
+  color: variaveis.$white;
 }
 
 .header_menu ul li a.menu_ativo {
-  color: #fff;
+  color: variaveis.$white;
 }
 
 /* Introdução */
@@ -152,7 +152,7 @@ img {
 
 .introducao h1 {
   font-size: 48px;
-  color: #fff;
+  color: variaveis.$white;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -174,7 +174,7 @@ img {
   display: block;
   width: 60px;
   height: 3px;
-  background: #fff;
+  background: variaveis.$white;
   margin: 14px auto 10px auto;
 }
 
@@ -192,7 +192,7 @@ img {
   margin-top: 92px;
   height: 160px;
   text-align: center;
-  color: #fff;
+  color: variaveis.$white;
   padding-top: 30px;
 }
 
@@ -207,7 +207,7 @@ img {
   display: block;
   width: 60px;
   height: 3px;
-  background: #fff;
+  background: variaveis.$white;
   margin: 6px auto 10px auto;
 }
 
@@ -240,7 +240,7 @@ img {
   display: block;
   width: 60px;
   height: 3px;
-  background: #000;
+  background: variaveis.$black;
   margin: 2px auto;
 }
 
@@ -249,7 +249,7 @@ img {
 }
 
 .produtos_icone {
-  background: #000;
+  background: variaveis.$black;
   padding: 20px;
 }
 
@@ -267,7 +267,7 @@ img {
 
 .portfolio {
   width: 100%;
-  background: #000;
+  background: variaveis.$black;
   padding: 40px 0;
 }
 
@@ -284,7 +284,7 @@ img {
 }
 
 .portfolio .call p {
-  color: #fff;
+  color: variaveis.$white;
 }
 
 /*Qualidade*/
@@ -333,7 +333,7 @@ img {
   display: block;
   width: 60px;
   height: 3px;
-  background: #000;
+  background: variaveis.$black;
   margin: 6px auto;
 }
 
@@ -356,8 +356,8 @@ img {
 
 .footer {
   width: 100%;
-  background: #000;
-  color: #fff;
+  background: variaveis.$black;
+  color: variaveis.$white;
   padding: 20px 0;
 }
 
@@ -402,7 +402,7 @@ img {
 }
 
 .footer_redes ul li a:hover {
-  border-color: #fff;
+  border-color: variaveis.$white;
 }
 
 .copy {
