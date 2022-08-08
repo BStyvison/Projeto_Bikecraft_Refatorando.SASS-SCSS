@@ -1,10 +1,15 @@
+// Gerais
 @use 'normalize';
 @use 'reset';
 @use 'grid';
+
+// Páginas
 @use 'geral';
 @use 'sobre';
 @use 'produtos';
 @use 'portfolio';
 @use 'contato';
+
+// Responsivo
 @use 'responsivo';
 
