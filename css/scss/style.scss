@@ -1,13 +1,10 @@
-/* @use 'reset';
 @use 'normalize';
+@use 'reset';
 @use 'grid';
 @use 'geral';
+@use 'sobre';
 @use 'produtos';
 @use 'portfolio';
 @use 'contato';
 @use 'responsivo';
- */
-body {
-    background-color: aqua;
-    color: black;
-}
+

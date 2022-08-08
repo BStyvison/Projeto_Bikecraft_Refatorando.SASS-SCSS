@@ -1,5 +1,5 @@
 const gulp = require('gulp');
-const sass = require('gulp-sass') (require('sass'));
+const sass = require('gulp-sass')(require('sass'));
 
 function compilaSass() {
     return gulp
@@ -8,5 +8,11 @@ function compilaSass() {
     .pipe(gulp.dest('css/'))
 }
 
-gulp.task('default', compilaSass);
+gulp.task('sass', compilaSass);
 
+function watch() {
+    gulp.watch('css/scss/*.scss', gulp.parallel('sass'))
+}
+
+
+gulp.task('default', watch)
