@@ -6,9 +6,7 @@ body {
 }
 
 p {
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 14px;
-  line-height: 20px;
+  @include type-2(14);
 }
 
 img {
@@ -23,8 +21,7 @@ img {
 
 #form-erro span,
 #form-send span {
-  font-size: 18px;
-  line-height: 25px;
+  @include type-1(18);
   margin-bottom: 10px;
   display: block;
 }
@@ -41,8 +38,7 @@ img {
   border: 3px solid variaveis.$amarelo;
   padding: 10px 30px;
   color: variaveis.$amarelo;
-  font-size: 14px;
-  line-height: 20px;
+  @include type-1(14);
   text-transform: uppercase;
   font-weight: bold;
   letter-spacing: 0.1em;
@@ -60,8 +56,7 @@ img {
 }
 
 .subtitulo {
-  font-size: 24px;
-  line-height: 30px;
+  @include type-1(24);
   font-weight: bold;
   letter-spacing: 0.1em;
   color: variaveis.$black;
@@ -80,7 +75,7 @@ img {
 }
 
 .subtitulo-interno {
-  font-size: 24px;
+  @include type-1(24);
   line-height: 30px;
   font-weight: bold;
   letter-spacing: 0.1em;
@@ -124,8 +119,7 @@ img {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  font-size: 14px;
-  line-height: 20px;
+  @include type-1(14);
   padding: 10px 0;
   transition: all 0.3s ease;
 }
@@ -151,7 +145,7 @@ img {
 }
 
 .introducao h1 {
-  font-size: 48px;
+  @include type-1(48);
   color: variaveis.$white;
   font-weight: bold;
   text-transform: uppercase;
@@ -181,7 +175,7 @@ img {
 .quote-externo cite {
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  @include type-1(14);
   letter-spacing: 0.1em;
 }
 
@@ -197,7 +191,7 @@ img {
 }
 
 .introducao-interna h1 {
-  font-size: 36px;
+  @include type-1(36);
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -228,8 +222,7 @@ img {
 
 .produtos_lista li h3 {
   font-weight: bold;
-  font-size: 18px;
-  line-height: 25px;
+  @include type-1(18);
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin-top: 20px;
@@ -321,8 +314,7 @@ img {
 
 .qualidade_lista li h3 {
   font-weight: bold;
-  font-size: 18px;
-  line-height: 25px;
+  @include type-1(18);
   text-transform: uppercase;
   letter-spacing: 0.1em;
   margin-top: 20px;
@@ -362,7 +354,7 @@ img {
 }
 
 .footer h3 {
-  font-size: 18px;
+  @include type-1(18);
   line-height: 25px;
   color: variaveis.$amarelo;
   text-transform: uppercase;
@@ -384,9 +376,7 @@ img {
 }
 
 .footer_contato ul li {
-  font-size: 14px;
-  line-height: 20px;
-  font-family: Georgia, "Times New Roman", serif;
+  @include type-2(14);
 }
 
 .footer_redes ul li {
